@@ -7,7 +7,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     background-color: rgb(45, 45, 45);
-    background-image: url('https://images.unsplash.com/photo-1488608119383-ca9873b7dc27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80');
+    /* background-image: url('https://images.unsplash.com/photo-1488608119383-ca9873b7dc27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80'); */
     background-position: center;
     background-size: cover;
     font-family: 'Open Sans', sans-serif;

@@ -11,15 +11,13 @@ let weather = {
         const { icon, description } = data.weather[0];
         const { temp, humidity } = data.main;
         const { speed } = data.wind;
-        console.log(name, icon, description, temp, humidity, speed);
         document.querySelector('.card__weather-city').innerText = 'Weather in ' + name;
         document.querySelector('.card__weather-temp').innerText = Math.ceil(temp) + '°C';
         document.querySelector('.card__weather-icon').src = 'https://openweathermap.org/img/wn/' + icon + '.png';
         document.querySelector('.card__weather-descr').innerText = description;
         document.querySelector('.card__weather-humadity').innerText = 'Humadity: ' + Math.ceil(humidity) + '%';
         document.querySelector('.card__weather-wind').innerText = 'Wind speed: ' + Math.ceil(speed) + ' km/h';
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/1920x1080/?" + name + "')";
-        document.body.classList.add('ada')
+        document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')";
     },
 
     search: function () {
